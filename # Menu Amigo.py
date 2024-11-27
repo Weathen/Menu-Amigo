@@ -9,14 +9,14 @@ order_finish = False #Diciendole al programa que la orden no ha terminado
 # El menú
 menu = {
     "Entradas": {
-        1: ("Croquetas", 4.50),
-        2: ("Jamón", 5.00),
-        3: ("Calamares", 6.00)
+         ("Croquetas", 4.50),
+         ("Jamón", 5.00),
+         ("Calamares", 6.00)
     },
     "Platos principales": {
-        4: ("Pulpo", 15.00),
-        5: ("Empanada de choco", 10.00),
-        6: ("Empanada de atún", 10.00)
+         ("Pulpo", 15.00),
+         ("Empanada de choco", 10.00),
+         ("Empanada de atún", 10.00)
     }
 }
 order = {} #El pedido del usuario, vacio ahora para que el usario lo rellene con los productos que quiera
